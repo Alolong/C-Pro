@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/cording/C++Pro/C++Char/MyProject/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
+				"C:/cording/C++Pro/C++Char/MyProject/Content/BLuePrints/MyMyGameModeBase.uasset",
+				"C:/cording/C++Pro/C++Char/MyProject/Content/BLuePrints/MyMyPlayerController.uasset"
+			]
+		}
+	]
+}

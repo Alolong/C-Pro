@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYPROJECT_MyCharacter_generated_h
 
-#define FID_C___C_Pro_C__Char_MyProject_Source_MyProject_MyCharacter_h_26_INCLASS_NO_PURE_DECLS \
+#define FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyCharacter_h_26_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyCharacter(); \
 	friend struct Z_Construct_UClass_AMyCharacter_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(AMyCharacter)
 
 
-#define FID_C___C_Pro_C__Char_MyProject_Source_MyProject_MyCharacter_h_26_ENHANCED_CONSTRUCTORS \
+#define FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyCharacter_h_26_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AMyCharacter(AMyCharacter&&); \
@@ -35,12 +35,12 @@ public: \
 	NO_API virtual ~AMyCharacter();
 
 
-#define FID_C___C_Pro_C__Char_MyProject_Source_MyProject_MyCharacter_h_23_PROLOG
-#define FID_C___C_Pro_C__Char_MyProject_Source_MyProject_MyCharacter_h_26_GENERATED_BODY \
+#define FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyCharacter_h_23_PROLOG
+#define FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyCharacter_h_26_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_C___C_Pro_C__Char_MyProject_Source_MyProject_MyCharacter_h_26_INCLASS_NO_PURE_DECLS \
-	FID_C___C_Pro_C__Char_MyProject_Source_MyProject_MyCharacter_h_26_ENHANCED_CONSTRUCTORS \
+	FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyCharacter_h_26_INCLASS_NO_PURE_DECLS \
+	FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyCharacter_h_26_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -48,7 +48,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> MYPROJECT_API UClass* StaticClass<class AMyCharacter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_C___C_Pro_C__Char_MyProject_Source_MyProject_MyCharacter_h
+#define CURRENT_FILE_ID FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyCharacter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -33,10 +33,28 @@
     <Filter Include="Source\MyProject">
       <UniqueIdentifier>{E24959B1-EBAF-399D-9D3A-65ADD2D94AF5}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\MyProject\MyAnimInstance.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProject\MyAnimInstance.h">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\MyProject\MyCharacter.cpp">
       <Filter>Source\MyProject</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\MyProject\MyCharacter.h">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProject\MyGameModeBase.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProject\MyGameModeBase.h">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProject\MyPlayerController.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProject\MyPlayerController.h">
       <Filter>Source\MyProject</Filter>
     </ClCompile>
     <None Include="..\..\Source\MyProject\MyProject.Build.cs">

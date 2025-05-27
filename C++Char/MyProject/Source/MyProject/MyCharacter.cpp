@@ -95,7 +95,7 @@ void AMyCharacter::OnMove(const FInputActionValue& value)
 	FRotator CameraRotation = GetControlRotation();
 
 	//2.각각의 회전값을 하나의 변수에 저장
-	//FRotator - 회전을 표현하는 구조체 FRotator(Pitch, Yaw, Roll) - FRotator의 Yaw는 Z축을 나타낸다
+	//FRotator - 회전을 표현하는 구조체 FRotator(Pitch, Yaw, Roll) - FRotator의 Yaw는 Z축을 나타낸다- pitch를 날림 바닥 안뚫게하려고함
 	FRotator FloorProjectionRotation = FRotator(0, CameraRotation.Yaw, CameraRotation.Roll);
 	
 	//3.앞쪽을 나타내는 것/ FVector 주의
