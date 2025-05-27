@@ -7,7 +7,14 @@
 			"files": [
 				"C:/cording/C++Pro/C++Char/MyProject/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
 				"C:/cording/C++Pro/C++Char/MyProject/Content/BLuePrints/MyMyGameModeBase.uasset",
-				"C:/cording/C++Pro/C++Char/MyProject/Content/BLuePrints/MyMyPlayerController.uasset"
+				"C:/cording/C++Pro/C++Char/MyProject/Content/BLuePrints/MyMyPlayerController.uasset",
+				"C:/cording/C++Pro/C++Char/MyProject/Content/BLuePrints/ABP_MannyFix.uasset",
+				"C:/cording/C++Pro/C++Char/MyProject/Content/BLuePrints/BP_MyChar.uasset",
+				"C:/cording/C++Pro/C++Char/MyProject/Content/ThirdPerson/Input/Actions/IA_Crouch.uasset",
+				"C:/cording/C++Pro/C++Char/MyProject/Content/ThirdPerson/Input/Actions/IA_Zoom.uasset",
+				"C:/cording/C++Pro/C++Char/MyProject/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"C:/cording/C++Pro/C++Char/MyProject/Content/BLuePrints/ABP_MyAnim.uasset",
+				"C:/cording/C++Pro/C++Char/MyProject/Content/Animation/BS_Id_Walk_Run.uasset"
 			]
 		}
 	]

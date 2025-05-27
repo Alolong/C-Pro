@@ -39,10 +39,19 @@ struct Z_Construct_UClass_UMyAnimInstance_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Speed_MetaData[] = {
 		{ "Category", "State" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xc7\xb5\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\n" },
+#endif
 		{ "ModuleRelativePath", "MyAnimInstance.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xc7\xb5\xef\xbf\xbd \xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd\xef\xbf\xbd" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bIsCrouched_MetaData[] = {
 		{ "Category", "State" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//\n" },
+#endif
 		{ "ModuleRelativePath", "MyAnimInstance.h" },
 	};
 #endif // WITH_METADATA
@@ -108,10 +117,10 @@ UMyAnimInstance::~UMyAnimInstance() {}
 struct Z_CompiledInDeferFile_FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyAnimInstance_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UMyAnimInstance, UMyAnimInstance::StaticClass, TEXT("UMyAnimInstance"), &Z_Registration_Info_UClass_UMyAnimInstance, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMyAnimInstance), 1241991885U) },
+		{ Z_Construct_UClass_UMyAnimInstance, UMyAnimInstance::StaticClass, TEXT("UMyAnimInstance"), &Z_Registration_Info_UClass_UMyAnimInstance, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMyAnimInstance), 262112496U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyAnimInstance_h_3032858327(TEXT("/Script/MyProject"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyAnimInstance_h_2025029712(TEXT("/Script/MyProject"),
 	Z_CompiledInDeferFile_FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyAnimInstance_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyAnimInstance_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
