@@ -72,6 +72,11 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 		UEIC->BindAction(IA_Zoom, ETriggerEvent::Triggered, this, &AMyCharacter::OnZoom);
 		
+		UEIC->BindAction(IA_Fire, ETriggerEvent::Triggered, this, &AMyCharacter::OnFire);
+
+		UEIC->BindAction(IA_RightLean, ETriggerEvent::Triggered, this, &AMyCharacter::OnRightLean);
+
+		UEIC->BindAction(IA_LeftLean, ETriggerEvent::Triggered, this, &AMyCharacter::OnLeftLean);
 
 		//IMC
 		UEIC->BindAction(IA_Crouch, ETriggerEvent::Triggered, this, &AMyCharacter::OnCrouch);
@@ -149,5 +154,50 @@ void AMyCharacter::OnCrouch(const FInputActionValue& value)
 	{
 		UnCrouch();
 	}
+}
+//리로드
+void AMyCharacter::OnReload(const FInputActionValue& Value)
+{
+	if (AM_Reload)
+	{
+		//재장전 몽타주가 재생중이지 않을때, PlyaAnimMontage를 한다.
+		//!GetMesh() : 스켈레탈 메시반환
+		//GetAnimInstance() 메시가 사용하는 애니메이션 인스턴스를 가져온다
+		//Montage_IsPlaying(AM_Reload) 전달된 애니몽타주가 현재 재생중인지확인 -반환 bool
+		if (!GetMesh()->GetAnimInstance()->Montage_IsPlaying(AM_Reload))
+		{
+			PlayAnimMontage(AM_Reload, 1.0f, TEXT("Rifle"));
+		}
+	}
+}
+
+void AMyCharacter::OnFire(const FInputActionValue& value)
+{
+	bIsFire = true;
+}
+
+void AMyCharacter::OnRightLean(const FInputActionValue& value)
+{
+	bIsRightLean = true;
+}
+
+void AMyCharacter::OnLeftLean(const FInputActionValue& value)
+{
+	bIsLeftLean = true;
+}
+
+void AMyCharacter::EndFire(const FInputActionValue& value)
+{
+	bIsFire = false;
+}
+
+void AMyCharacter::EndRightLean(const FInputActionValue& value)
+{
+	bIsRightLean = false;
+}
+
+void AMyCharacter::EndLeftLean(const FInputActionValue& value)
+{
+	bIsLeftLean = false;
 }
 

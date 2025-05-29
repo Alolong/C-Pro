@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/C++/C-Pro/C++Char/MyProject/Content/Animation/ABP_MannyFix.uasset",
+				"D:/C++/C-Pro/C++Char/MyProject/Content/BLuePrints/ABP_MannyFix.uasset",
+				"D:/C++/C-Pro/C++Char/MyProject/Content/BLuePrints/BP_MyChar.uasset",
+				"D:/C++/C-Pro/C++Char/MyProject/Content/Animation/ABP_MyAnim.uasset",
+				"D:/C++/C-Pro/C++Char/MyProject/Content/BLuePrints/ABP_MyAnim.uasset",
+				"D:/C++/C-Pro/C++Char/MyProject/Content/Animation/BS_Crouch_Walk.uasset",
+				"D:/C++/C-Pro/C++Char/MyProject/Content/ThirdPerson/Input/IMC_Default.uasset",
 				"C:/cording/C++Pro/C++Char/MyProject/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
 				"C:/cording/C++Pro/C++Char/MyProject/Content/BLuePrints/MyMyGameModeBase.uasset",
 				"C:/cording/C++Pro/C++Char/MyProject/Content/BLuePrints/MyMyPlayerController.uasset",

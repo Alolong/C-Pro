@@ -81,14 +81,14 @@ AMyPlayerController::~AMyPlayerController() {}
 // End Class AMyPlayerController
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h_Statics
+struct Z_CompiledInDeferFile_FID_C___C_Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AMyPlayerController, AMyPlayerController::StaticClass, TEXT("AMyPlayerController"), &Z_Registration_Info_UClass_AMyPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyPlayerController), 2757578959U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h_2106537464(TEXT("/Script/MyProject"),
-	Z_CompiledInDeferFile_FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_C___C_Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h_2106537464(TEXT("/Script/MyProject"),
+	Z_CompiledInDeferFile_FID_C___C_Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_C___C_Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

@@ -69,15 +69,26 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Input")
 	TObjectPtr<UInputAction> IA_Crouch;
 
+	//총기 좌우
+	UPROPERTY(EditAnywhere, Category = "Input")
+	TObjectPtr<UInputAction> IA_Fire;
+
+	UPROPERTY(EditAnywhere, Category = "Input")
+	TObjectPtr<UInputAction> IA_RightLean;
+
+	UPROPERTY(EditAnywhere, Category = "Input")
+	TObjectPtr<UInputAction> IA_LeftLean;
 
 
+
+	//IMC
 	UPROPERTY(EditAnywhere, Category = "Input")
 	TObjectPtr<UInputMappingContext> IMC_Default;
 
 
 
 
-	//조작 관련
+	//조작 관련 함수
 	void OnMove(const FInputActionValue& value);
 
 	void OnLook(const FInputActionValue& value);
@@ -87,6 +98,38 @@ public:
 	void OnJump(const FInputActionValue& value);
 	
 	void OnCrouch(const FInputActionValue& value);
+
+	void OnReload(const FInputActionValue& Value);
+
+	void OnFire(const FInputActionValue& value);
+
+	void OnRightLean(const FInputActionValue& value);
+
+	void OnLeftLean(const FInputActionValue& value);
+
+	void EndFire(const FInputActionValue& value);
+
+	void EndRightLean(const FInputActionValue& value);
+
+	void EndLeftLean(const FInputActionValue& value);
+
+
+	UPROPERTY(BlueprintReadOnly, Category = "Animations", EditAnywhere)
+	TObjectPtr<UAnimMontage> AM_Reload;
+
+	UPROPERTY(BlueprintReadOnly, Category = "Animations", EditAnywhere)
+	TObjectPtr<UAnimMontage> AM_Hit;
+
+
+	UPROPERTY(EditAnywhere, Category = "State")
+	uint8 bIsFire : 1;
+
+	UPROPERTY(EditAnywhere, Category = "State")
+	uint8 bIsLeftLean : 1;
+
+	UPROPERTY(EditAnywhere, Category = "State")
+	uint8 bIsRightLean : 1;
+
 
 };
  

@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYPROJECT_MyPlayerController_generated_h
 
-#define FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_C___C_Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyPlayerController(); \
 	friend struct Z_Construct_UClass_AMyPlayerController_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(AMyPlayerController)
 
 
-#define FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_C___C_Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyPlayerController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -37,12 +37,12 @@ public: \
 	NO_API virtual ~AMyPlayerController();
 
 
-#define FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h_12_PROLOG
-#define FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h_15_GENERATED_BODY \
+#define FID_C___C_Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h_12_PROLOG
+#define FID_C___C_Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h_15_INCLASS_NO_PURE_DECLS \
-	FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h_15_ENHANCED_CONSTRUCTORS \
+	FID_C___C_Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h_15_INCLASS_NO_PURE_DECLS \
+	FID_C___C_Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -50,7 +50,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> MYPROJECT_API UClass* StaticClass<class AMyPlayerController>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_cording_C__Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h
+#define CURRENT_FILE_ID FID_C___C_Pro_C__Char_MyProject_Source_MyProject_MyPlayerController_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
